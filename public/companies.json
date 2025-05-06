@@ -1,0 +1,862 @@
+[
+    {
+        "id": "comp001",
+        "name": "Company 1",
+        "description": "is a software development company based in San Francisco, focused on modern tech solutions.",
+        "title": "Innovative Software Solutions Inc.",
+        "logo": "https://img.freepik.com/free-vector/gradient-code-logo-with-tagline_23-2148809313.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
+        "location": "San Francisco, CA",
+        "website": "https://company1.com",
+        "industry": "Software Development",
+        "jobs": [
+          {
+            "id": "job001",
+            "title": "Frontend Developer",
+            "bannerImage": "https://img.freepik.com/free-vector/programming-concept-illustration_114360-1351.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
+            "location": "San Francisco, CA",
+            "salary": "$60,000 - $80,000",
+            "jobType": "Full-time",
+            "description": "Frontend Developer responsible for building and maintaining applications.",
+            "requirements": [
+              "Proficient in HTML, CSS, and JavaScript",
+              "Experience with React or Vue.js",
+              "Familiarity with RESTful APIs",
+              "Good understanding of responsive design",
+              "Excellent problem-solving skills"
+            ]
+          },
+          {
+            "id": "job002",
+            "title": "Backend Developer",
+            "bannerImage": "https://img.freepik.com/free-photo/person-front-computer-working-html_23-2150040428.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
+            "location": "Remote",
+            "salary": "$70,000 - $90,000",
+            "jobType": "Full-time",
+            "description": "Build and manage server-side applications and APIs.",
+            "requirements": [
+              "Strong knowledge of Node.js or Django",
+              "Experience with databases like MongoDB or PostgreSQL",
+              "Understanding of REST and GraphQL",
+              "Version control using Git",
+              "Strong debugging skills"
+            ]
+          },
+          {
+            "id": "job003",
+            "title": "UI/UX Designer",
+            "bannerImage": "https://img.freepik.com/free-photo/representations-user-experience-interface-design_23-2150104516.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
+            "location": "New York, NY",
+            "salary": "$55,000 - $75,000",
+            "jobType": "Full-time",
+            "description": "Design user-friendly interfaces and experiences for web and mobile.",
+            "requirements": [
+              "Proficiency in Figma or Adobe XD",
+              "Strong visual design skills",
+              "User research experience",
+              "Understanding of accessibility principles",
+              "Excellent communication skills"
+            ]
+          },
+          {
+            "id": "job004",
+            "title": "DevOps Engineer",
+            "bannerImage": "https://img.freepik.com/free-vector/devops-engineer-flat-design-concept-with-big-infinity-symbol-centre-little-icons-working-employees-vector-illustration_1284-74955.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
+            "location": "Austin, TX",
+            "salary": "$80,000 - $100,000",
+            "jobType": "Full-time",
+            "description": "Ensure smooth deployment and monitoring of applications.",
+            "requirements": [
+              "Experience with AWS or Azure",
+              "Knowledge of Docker and Kubernetes",
+              "CI/CD pipeline management",
+              "Shell scripting skills",
+              "Problem-solving under pressure"
+            ]
+          },
+          {
+            "id": "job005",
+            "title": "QA Engineer",
+            "bannerImage": "https://img.freepik.com/free-vector/qa-engineers-concept-illustration_114360-3250.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
+            "location": "Remote",
+            "salary": "$50,000 - $70,000",
+            "jobType": "Full-time",
+            "description": "Develop and run test plans to ensure software quality.",
+            "requirements": [
+              "Experience with manual and automated testing",
+              "Knowledge of testing tools like Selenium",
+              "Bug tracking with JIRA",
+              "Basic understanding of APIs",
+              "Attention to detail"
+            ]
+          },
+          {
+            "id": "job006",
+            "title": "Product Manager",
+            "bannerImage": "https://img.freepik.com/free-vector/product-presentation-concept-illustration_114360-8416.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
+            "location": "San Francisco, CA",
+            "salary": "$90,000 - $120,000",
+            "jobType": "Full-time",
+            "description": "Lead product development from concept to launch.",
+            "requirements": [
+              "Strong communication and leadership skills",
+              "Experience with Agile methodologies",
+              "Customer-focused mindset",
+              "Data analysis skills",
+              "Understanding of software lifecycle"
+            ]
+          },
+          {
+            "id": "job007",
+            "title": "Mobile App Developer",
+            "bannerImage": "https://img.freepik.com/free-vector/app-development-banner_33099-1720.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
+            "location": "Los Angeles, CA",
+            "salary": "$65,000 - $85,000",
+            "jobType": "Full-time",
+            "description": "Develop and maintain iOS and Android apps.",
+            "requirements": [
+              "Proficiency in React Native or Flutter",
+              "Knowledge of mobile UI/UX",
+              "API integration experience",
+              "App deployment to stores",
+              "Cross-platform development understanding"
+            ]
+          },
+          {
+            "id": "job008",
+            "title": "System Administrator",
+            "bannerImage": "https://img.freepik.com/free-vector/man-engineer-working-computer-server-rack-switchboard-guy-switching-panel-cabinet-with-plugged-ethernet-optical-cables-telecommunications-engineering-concept-flat-illustration_74855-20639.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
+            "location": "Seattle, WA",
+            "salary": "$60,000 - $75,000",
+            "jobType": "Full-time",
+            "description": "Manage and maintain IT infrastructure and systems.",
+            "requirements": [
+              "Experience with Linux/Windows servers",
+              "Network configuration knowledge",
+              "Security and patch management",
+              "Backup and disaster recovery planning",
+              "Excellent troubleshooting skills"
+            ]
+          },
+          {
+            "id": "job009",
+            "title": "Data Analyst",
+            "bannerImage": "https://img.freepik.com/free-vector/data-inform-illustration-concept_114360-864.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
+            "location": "Remote",
+            "salary": "$65,000 - $90,000",
+            "jobType": "Full-time",
+            "description": "Analyze and visualize data to support decision-making.",
+            "requirements": [
+              "Strong skills in Excel and SQL",
+              "Experience with BI tools like Tableau",
+              "Understanding of statistics",
+              "Ability to interpret data patterns",
+              "Effective communication of insights"
+            ]
+          },
+          {
+            "id": "job010",
+            "title": "Cybersecurity Analyst",
+            "bannerImage": "https://img.freepik.com/free-photo/man-working-computer-with-data-analysis-security-screen_23-2151967413.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
+            "location": "Chicago, IL",
+            "salary": "$75,000 - $100,000",
+            "jobType": "Full-time",
+            "description": "Protect systems and data from cyber threats.",
+            "requirements": [
+              "Knowledge of network and application security",
+              "Experience with firewalls and intrusion detection",
+              "Incident response planning",
+              "Risk assessment skills",
+              "Security certifications preferred"
+            ]
+          }
+        ]
+    },
+    {
+        "id": "comp002",
+        "name": "Company 2",
+        "title": "NextGen Financial Corp.",
+        "description": "is a New York-based finance company providing advanced financial services and solutions.",
+        "logo": "https://img.freepik.com/free-vector/abstract-graphic-logo_1043-36.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
+        "location": "New York, NY",
+        "website": "https://company2.com",
+        "industry": "Finance",
+        "jobs": [
+          {
+            "id": "job002-01",
+            "title": "Backend Engineer",
+            "bannerImage": "https://example.com/jobs/job-banner2.jpg",
+            "location": "New York, NY",
+            "salary": "$62,000 - $82,000",
+            "jobType": "Full-time",
+            "description": "Backend Engineer responsible for building and maintaining applications.",
+            "requirements": [
+              "Proficient in Node.js or Python",
+              "Experience with RESTful APIs",
+              "Understanding of databases like MySQL or MongoDB",
+              "Knowledge of secure coding practices",
+              "Problem-solving skills"
+            ]
+          },
+          {
+            "id": "job002-02",
+            "title": "Financial Analyst",
+            "bannerImage": "https://example.com/jobs/job-banner-finance.jpg",
+            "location": "Remote",
+            "salary": "$70,000 - $90,000",
+            "jobType": "Full-time",
+            "description": "Analyze financial data to assist in decision-making.",
+            "requirements": [
+              "Strong Excel and data modeling skills",
+              "Understanding of accounting principles",
+              "Experience with financial software",
+              "Attention to detail",
+              "Effective communication skills"
+            ]
+          },
+          {
+            "id": "job002-03",
+            "title": "Compliance Officer",
+            "bannerImage": "https://example.com/jobs/job-banner-compliance.jpg",
+            "location": "New York, NY",
+            "salary": "$80,000 - $100,000",
+            "jobType": "Full-time",
+            "description": "Ensure all financial practices follow legal and ethical standards.",
+            "requirements": [
+              "Knowledge of financial regulations",
+              "Analytical thinking",
+              "Experience in compliance management",
+              "Detail-oriented mindset",
+              "Strong reporting skills"
+            ]
+          },
+          {
+            "id": "job002-04",
+            "title": "Cloud Engineer",
+            "bannerImage": "https://example.com/jobs/job-banner-cloud.jpg",
+            "location": "Remote",
+            "salary": "$85,000 - $110,000",
+            "jobType": "Full-time",
+            "description": "Develop and manage cloud-based infrastructure.",
+            "requirements": [
+              "Experience with AWS or Azure",
+              "Knowledge of cloud security",
+              "Infrastructure as code tools",
+              "Monitoring and automation",
+              "Team collaboration skills"
+            ]
+          },
+          {
+            "id": "job002-05",
+            "title": "Business Analyst",
+            "bannerImage": "https://example.com/jobs/job-banner-business.jpg",
+            "location": "New York, NY",
+            "salary": "$60,000 - $85,000",
+            "jobType": "Full-time",
+            "description": "Bridge between business needs and tech teams.",
+            "requirements": [
+              "Strong communication and documentation skills",
+              "Understanding of business processes",
+              "Ability to work with stakeholders",
+              "Knowledge of Agile",
+              "Data analysis skills"
+            ]
+          },
+          {
+            "id": "job002-06",
+            "title": "Mobile Developer",
+            "bannerImage": "https://example.com/jobs/job-banner-mobile.jpg",
+            "location": "Remote",
+            "salary": "$68,000 - $88,000",
+            "jobType": "Full-time",
+            "description": "Build cross-platform finance apps for iOS and Android.",
+            "requirements": [
+              "Experience with Flutter or React Native",
+              "Understanding of mobile UI/UX",
+              "REST API integration",
+              "Play Store / App Store publishing",
+              "Problem-solving skills"
+            ]
+          },
+          {
+            "id": "job002-07",
+            "title": "Customer Support Specialist",
+            "bannerImage": "https://example.com/jobs/job-banner-support.jpg",
+            "location": "Remote",
+            "salary": "$40,000 - $55,000",
+            "jobType": "Full-time",
+            "description": "Assist clients with their financial software inquiries.",
+            "requirements": [
+              "Excellent verbal and written communication",
+              "Patience and empathy",
+              "Experience with support tools",
+              "Basic financial knowledge",
+              "Multi-tasking ability"
+            ]
+          },
+          {
+            "id": "job002-08",
+            "title": "Data Engineer",
+            "bannerImage": "https://example.com/jobs/job-banner-data.jpg",
+            "location": "New York, NY",
+            "salary": "$90,000 - $115,000",
+            "jobType": "Full-time",
+            "description": "Build pipelines and ensure clean data for analytics.",
+            "requirements": [
+              "Strong SQL skills",
+              "Experience with ETL tools",
+              "Cloud data platforms",
+              "Python or Scala knowledge",
+              "Understanding of financial data"
+            ]
+          },
+          {
+            "id": "job002-09",
+            "title": "Machine Learning Engineer",
+            "bannerImage": "https://example.com/jobs/job-banner-ml.jpg",
+            "location": "Remote",
+            "salary": "$95,000 - $130,000",
+            "jobType": "Full-time",
+            "description": "Implement ML models to detect fraud and improve predictions.",
+            "requirements": [
+              "Experience in ML frameworks (TensorFlow, PyTorch)",
+              "Data preprocessing",
+              "Model evaluation",
+              "Python proficiency",
+              "Understanding of finance-related datasets"
+            ]
+          },
+          {
+            "id": "job002-10",
+            "title": "Marketing Manager",
+            "bannerImage": "https://example.com/jobs/job-banner-marketing.jpg",
+            "location": "New York, NY",
+            "salary": "$75,000 - $95,000",
+            "jobType": "Full-time",
+            "description": "Plan and execute marketing strategies for financial services.",
+            "requirements": [
+              "Experience with digital marketing",
+              "SEO/SEM knowledge",
+              "Campaign management",
+              "Analytical mindset",
+              "Strong creative skills"
+            ]
+          }
+        ]
+    },
+    {
+        "id": "comp003",
+        "name": "Company 3",
+        "title": "HealthNext Solutions",
+        "description": "Is a healthcare company based in Austin, TX, focused on delivering modern health tech solutions and services.",
+        "logo": "https://img.freepik.com/free-vector/hospital-logo-design-vector-medical-cross_53876-136743.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
+        "location": "Austin, TX",
+        "website": "https://company3.com",
+        "industry": "Healthcare",
+        "jobs": [
+          {
+            "id": "job003",
+            "title": "Data Analyst",
+            "bannerImage": "https://example.com/jobs/job-banner3.jpg",
+            "location": "Austin, TX",
+            "salary": "$64,000 - $84,000",
+            "jobType": "Full-time",
+            "description": "Data Analyst responsible for building and maintaining applications.",
+            "requirements": [
+              "Proficient in HTML, CSS, and JavaScript",
+              "Experience with React or Vue.js",
+              "Familiarity with RESTful APIs",
+              "Good understanding of responsive design",
+              "Excellent problem-solving skills"
+            ]
+          },
+          {
+            "id": "job004",
+            "title": "Backend Developer",
+            "bannerImage": "https://example.com/jobs/backend-banner.jpg",
+            "location": "Austin, TX",
+            "salary": "$75,000 - $95,000",
+            "jobType": "Full-time",
+            "description": "Work on scalable backend systems using Node.js.",
+            "requirements": [
+              "Proficiency in Node.js and Express",
+              "Understanding of database systems like MongoDB or PostgreSQL",
+              "Knowledge of API development",
+              "Version control with Git",
+              "Team collaboration experience"
+            ]
+          },
+          {
+            "id": "job005",
+            "title": "Frontend Developer",
+            "bannerImage": "https://example.com/jobs/frontend-banner.jpg",
+            "location": "Remote",
+            "salary": "$70,000 - $90,000",
+            "jobType": "Remote",
+            "description": "Create user-friendly web interfaces using React.",
+            "requirements": [
+              "Experience with React.js and Redux",
+              "Strong CSS and JavaScript skills",
+              "Familiar with responsive and mobile-first design",
+              "UI/UX understanding",
+              "Good communication skills"
+            ]
+          },
+          {
+            "id": "job006",
+            "title": "Project Manager",
+            "bannerImage": "https://example.com/jobs/pm-banner.jpg",
+            "location": "Austin, TX",
+            "salary": "$85,000 - $110,000",
+            "jobType": "Full-time",
+            "description": "Manage healthcare software projects and lead agile teams.",
+            "requirements": [
+              "Experience in project management",
+              "Agile/Scrum knowledge",
+              "Strong communication and leadership skills",
+              "Healthcare industry exposure is a plus",
+              "Tools like JIRA, Trello"
+            ]
+          },
+          {
+            "id": "job007",
+            "title": "UI/UX Designer",
+            "bannerImage": "https://example.com/jobs/uiux-banner.jpg",
+            "location": "Austin, TX",
+            "salary": "$68,000 - $88,000",
+            "jobType": "Full-time",
+            "description": "Design modern interfaces for healthcare applications.",
+            "requirements": [
+              "Proficiency with Figma or Adobe XD",
+              "Experience in wireframing and prototyping",
+              "Understanding of user-centered design",
+              "Collaboration with developers",
+              "Strong visual design skills"
+            ]
+          },
+          {
+            "id": "job008",
+            "title": "QA Engineer",
+            "bannerImage": "https://example.com/jobs/qa-banner.jpg",
+            "location": "Austin, TX",
+            "salary": "$60,000 - $80,000",
+            "jobType": "Full-time",
+            "description": "Test and ensure the quality of healthcare software systems.",
+            "requirements": [
+              "Manual and automated testing experience",
+              "Tools like Selenium, Jest",
+              "Bug tracking systems",
+              "Detail-oriented mindset",
+              "Healthcare software knowledge preferred"
+            ]
+          },
+          {
+            "id": "job009",
+            "title": "DevOps Engineer",
+            "bannerImage": "https://example.com/jobs/devops-banner.jpg",
+            "location": "Austin, TX",
+            "salary": "$90,000 - $120,000",
+            "jobType": "Full-time",
+            "description": "Automate infrastructure and deployment pipelines.",
+            "requirements": [
+              "CI/CD tools like Jenkins, GitHub Actions",
+              "Experience with AWS, Docker, Kubernetes",
+              "Monitoring and alerting tools",
+              "Strong scripting skills",
+              "Security and compliance awareness"
+            ]
+          },
+          {
+            "id": "job010",
+            "title": "Technical Writer",
+            "bannerImage": "https://example.com/jobs/writer-banner.jpg",
+            "location": "Austin, TX",
+            "salary": "$55,000 - $75,000",
+            "jobType": "Part-time",
+            "description": "Write clear and concise documentation for healthcare products.",
+            "requirements": [
+              "Excellent writing and communication skills",
+              "Experience in technical writing",
+              "Knowledge of software systems",
+              "Organized and detail-focused",
+              "Experience with documentation tools"
+            ]
+          },
+          {
+            "id": "job011",
+            "title": "Mobile App Developer",
+            "bannerImage": "https://example.com/jobs/mobile-banner.jpg",
+            "location": "Austin, TX",
+            "salary": "$78,000 - $98,000",
+            "jobType": "Full-time",
+            "description": "Develop cross-platform mobile apps using Flutter.",
+            "requirements": [
+              "Experience with Flutter and Dart",
+              "Familiar with native iOS/Android APIs",
+              "Good UI/UX understanding",
+              "Testing and deployment on app stores",
+              "Team collaboration"
+            ]
+          },
+          {
+            "id": "job012",
+            "title": "Support Engineer",
+            "bannerImage": "https://example.com/jobs/support-banner.jpg",
+            "location": "Austin, TX",
+            "salary": "$50,000 - $70,000",
+            "jobType": "Full-time",
+            "description": "Provide technical support for clients using our software.",
+            "requirements": [
+              "Strong communication and troubleshooting skills",
+              "Experience with ticketing systems",
+              "Basic understanding of software systems",
+              "Customer-first mindset",
+              "Availability for on-call rotations"
+            ]
+          }
+        ]
+    },
+    {
+        "id": "comp004",
+        "name": "Company 4",
+        "title": "Remote Education Tech Solutions",
+        "description": " Is an education technology company operating remotely, specializing in digital learning tools and virtual education platforms.",
+        "logo": "https://img.freepik.com/free-vector/vector-education-logo_779267-2083.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
+        "location": "Remote",
+        "website": "https://company4.com",
+        "industry": "Education",
+        "jobs": [
+          {
+            "id": "job004",
+            "title": "DevOps Engineer",
+            "bannerImage": "https://example.com/jobs/job-banner4.jpg",
+            "location": "Remote",
+            "salary": "$66,000 - $86,000",
+            "jobType": "Full-time",
+            "description": "DevOps Engineer responsible for building and maintaining applications.",
+            "requirements": [
+              "Proficient in CI/CD tools",
+              "Cloud platform experience (AWS, Azure)",
+              "Infrastructure as code knowledge",
+              "Strong problem-solving skills",
+              "Automation mindset"
+            ]
+          },
+          {
+            "id": "job013",
+            "title": "Instructional Designer",
+            "bannerImage": "https://example.com/jobs/instructional.jpg",
+            "location": "Remote",
+            "salary": "$55,000 - $75,000",
+            "jobType": "Remote",
+            "description": "Design engaging e-learning content for educational platforms.",
+            "requirements": [
+              "Experience in e-learning design",
+              "Familiarity with LMS systems",
+              "Creative writing skills",
+              "Knowledge of pedagogy",
+              "Basic HTML/CSS"
+            ]
+          },
+          {
+            "id": "job014",
+            "title": "Online Course Developer",
+            "bannerImage": "https://example.com/jobs/course-dev.jpg",
+            "location": "Remote",
+            "salary": "$60,000 - $80,000",
+            "jobType": "Full-time",
+            "description": "Develop and maintain online courses using modern tools.",
+            "requirements": [
+              "Experience with tools like Articulate or Adobe Captivate",
+              "SCORM and xAPI knowledge",
+              "Video editing basics",
+              "Strong communication",
+              "Remote collaboration experience"
+            ]
+          },
+          {
+            "id": "job015",
+            "title": "React Developer (EdTech)",
+            "bannerImage": "https://example.com/jobs/react-edtech.jpg",
+            "location": "Remote",
+            "salary": "$72,000 - $92,000",
+            "jobType": "Full-time",
+            "description": "Build modern educational web apps using React.",
+            "requirements": [
+              "Strong React.js and Redux skills",
+              "API integration experience",
+              "Responsive design",
+              "Git and agile workflow",
+              "EdTech experience preferred"
+            ]
+          },
+          {
+            "id": "job016",
+            "title": "Educational Content Writer",
+            "bannerImage": "https://example.com/jobs/edu-writer.jpg",
+            "location": "Remote",
+            "salary": "$45,000 - $65,000",
+            "jobType": "Part-time",
+            "description": "Write clear, engaging educational material.",
+            "requirements": [
+              "Strong writing and editing skills",
+              "Research capability",
+              "K-12 or higher education experience",
+              "SEO knowledge is a plus",
+              "Time management"
+            ]
+          },
+          {
+            "id": "job017",
+            "title": "Marketing Manager (EdTech)",
+            "bannerImage": "https://example.com/jobs/ed-marketing.jpg",
+            "location": "Remote",
+            "salary": "$78,000 - $98,000",
+            "jobType": "Full-time",
+            "description": "Drive marketing strategy for online learning products.",
+            "requirements": [
+              "Digital marketing experience",
+              "Content planning",
+              "Analytics tools",
+              "Email & social media marketing",
+              "EdTech knowledge"
+            ]
+          },
+          {
+            "id": "job018",
+            "title": "Customer Success Manager",
+            "bannerImage": "https://example.com/jobs/csm-ed.jpg",
+            "location": "Remote",
+            "salary": "$65,000 - $85,000",
+            "jobType": "Full-time",
+            "description": "Ensure customer satisfaction with EdTech platforms.",
+            "requirements": [
+              "Client relationship experience",
+              "Problem-solving mindset",
+              "Onboarding and training experience",
+              "Education background helpful",
+              "CRM systems experience"
+            ]
+          },
+          {
+            "id": "job019",
+            "title": "Data Analyst (Learning Analytics)",
+            "bannerImage": "https://example.com/jobs/data-ed.jpg",
+            "location": "Remote",
+            "salary": "$70,000 - $90,000",
+            "jobType": "Full-time",
+            "description": "Analyze learning trends and course effectiveness.",
+            "requirements": [
+              "SQL and data visualization tools",
+              "Basic statistics",
+              "Experience in education or EdTech",
+              "Report generation",
+              "Communication of findings"
+            ]
+          },
+          {
+            "id": "job020",
+            "title": "Python Developer (Automation)",
+            "bannerImage": "https://example.com/jobs/python-ed.jpg",
+            "location": "Remote",
+            "salary": "$75,000 - $95,000",
+            "jobType": "Full-time",
+            "description": "Build backend automation scripts for education tools.",
+            "requirements": [
+              "Strong Python skills",
+              "API integration",
+              "Basic DevOps knowledge",
+              "Database experience",
+              "Remote collaboration tools"
+            ]
+          },
+          {
+            "id": "job021",
+            "title": "Support Specialist",
+            "bannerImage": "https://example.com/jobs/support-ed.jpg",
+            "location": "Remote",
+            "salary": "$48,000 - $65,000",
+            "jobType": "Full-time",
+            "description": "Provide support to users of our learning platforms.",
+            "requirements": [
+              "Customer service experience",
+              "Technical troubleshooting",
+              "Good communication",
+              "Ticketing systems",
+              "Education software experience preferred"
+            ]
+          }
+        ]
+    },
+    {
+        "id": "comp005",
+        "name": "Company 5",
+        "title": "Urban Retail Solutions Inc.",
+        "description": " Is a Chicago-based company focused on delivering innovative retail technologies and smart shopping solutions for urban markets.",
+        "logo": "https://img.freepik.com/free-psd/real-estate-logo-design_23-2151249802.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
+        "location": "Chicago, IL",
+        "website": "https://company5.com",
+        "industry": "Retail",
+        "jobs": [
+          {
+            "id": "job005",
+            "title": "UX Designer",
+            "bannerImage": "https://example.com/jobs/job-banner5.jpg",
+            "location": "Chicago, IL",
+            "salary": "$68,000 - $88,000",
+            "jobType": "Full-time",
+            "description": "UX Designer responsible for building and maintaining applications.",
+            "requirements": [
+              "Proficient in UX research",
+              "Figma or Adobe XD skills",
+              "Retail platform experience",
+              "Design thinking approach",
+              "Strong collaboration"
+            ]
+          },
+          {
+            "id": "job022",
+            "title": "Retail Data Analyst",
+            "bannerImage": "https://example.com/jobs/retail-data.jpg",
+            "location": "Chicago, IL",
+            "salary": "$65,000 - $85,000",
+            "jobType": "Full-time",
+            "description": "Analyze sales data to drive retail strategy.",
+            "requirements": [
+              "SQL and Excel proficiency",
+              "Retail KPIs knowledge",
+              "Strong analytical skills",
+              "Presentation of findings",
+              "Dashboards and reporting tools"
+            ]
+          },
+          {
+            "id": "job023",
+            "title": "E-commerce Developer",
+            "bannerImage": "https://example.com/jobs/ecommerce-dev.jpg",
+            "location": "Chicago, IL",
+            "salary": "$75,000 - $95,000",
+            "jobType": "Full-time",
+            "description": "Develop and maintain the e-commerce platform.",
+            "requirements": [
+              "Experience with Shopify or Magento",
+              "Frontend/backend development",
+              "Integration with payment gateways",
+              "SEO and performance optimization",
+              "Bug fixing and testing"
+            ]
+          },
+          {
+            "id": "job024",
+            "title": "Store Operations Manager",
+            "bannerImage": "https://example.com/jobs/store-mgr.jpg",
+            "location": "Chicago, IL",
+            "salary": "$80,000 - $100,000",
+            "jobType": "Full-time",
+            "description": "Oversee daily retail operations and staff management.",
+            "requirements": [
+              "Retail operations experience",
+              "Staff scheduling and management",
+              "Inventory control",
+              "POS systems knowledge",
+              "Leadership and communication"
+            ]
+          },
+          {
+            "id": "job025",
+            "title": "Marketing Coordinator",
+            "bannerImage": "https://example.com/jobs/retail-marketing.jpg",
+            "location": "Chicago, IL",
+            "salary": "$55,000 - $75,000",
+            "jobType": "Full-time",
+            "description": "Coordinate in-store and digital marketing campaigns.",
+            "requirements": [
+              "Marketing strategy knowledge",
+              "Retail campaign experience",
+              "Email and content marketing",
+              "CRM tool familiarity",
+              "Team collaboration"
+            ]
+          },
+          {
+            "id": "job026",
+            "title": "Inventory Specialist",
+            "bannerImage": "https://example.com/jobs/inventory.jpg",
+            "location": "Chicago, IL",
+            "salary": "$50,000 - $70,000",
+            "jobType": "Full-time",
+            "description": "Monitor and maintain accurate stock records.",
+            "requirements": [
+              "Warehouse or inventory software",
+              "Attention to detail",
+              "Stock forecasting",
+              "Data entry accuracy",
+              "Retail environment knowledge"
+            ]
+          },
+          {
+            "id": "job027",
+            "title": "Customer Service Lead",
+            "bannerImage": "https://example.com/jobs/retail-cs.jpg",
+            "location": "Chicago, IL",
+            "salary": "$52,000 - $72,000",
+            "jobType": "Full-time",
+            "description": "Lead the customer service team across stores.",
+            "requirements": [
+              "Retail customer support",
+              "Complaint resolution",
+              "Team management",
+              "CRM tools",
+              "Conflict management"
+            ]
+          },
+          {
+            "id": "job028",
+            "title": "Mobile App Designer",
+            "bannerImage": "https://example.com/jobs/mobile-retail.jpg",
+            "location": "Chicago, IL",
+            "salary": "$70,000 - $90,000",
+            "jobType": "Full-time",
+            "description": "Design UX/UI for the retail mobile app.",
+            "requirements": [
+              "Mobile-first design experience",
+              "Figma and prototyping tools",
+              "Retail app design principles",
+              "User feedback analysis",
+              "Agile design collaboration"
+            ]
+          },
+          {
+            "id": "job029",
+            "title": "Warehouse Supervisor",
+            "bannerImage": "https://example.com/jobs/warehouse.jpg",
+            "location": "Chicago, IL",
+            "salary": "$60,000 - $80,000",
+            "jobType": "Full-time",
+            "description": "Oversee warehouse operations and staff.",
+            "requirements": [
+              "Warehouse management experience",
+              "Safety and compliance",
+              "Inventory software",
+              "Forklift certification preferred",
+              "Team leadership"
+            ]
+          },
+          {
+            "id": "job030",
+            "title": "IT Support Technician",
+            "bannerImage": "https://example.com/jobs/it-retail.jpg",
+            "location": "Chicago, IL",
+            "salary": "$58,000 - $76,000",
+            "jobType": "Full-time",
+            "description": "Support IT systems across all retail locations.",
+            "requirements": [
+              "Basic networking knowledge",
+              "POS and retail systems support",
+              "Ticketing systems",
+              "On-site troubleshooting",
+              "Clear communication"
+            ]
+          }
+        ]
+    }
+  ]
