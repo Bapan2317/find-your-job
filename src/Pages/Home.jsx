@@ -4,6 +4,7 @@ import Companies from '../Components/Companies';
 import { useLoaderData } from 'react-router';
 import { Helmet } from 'react-helmet';
 import SuccessStories from '../Components/SuccessStories';
+import StatsOverview from '../Components/StatsOverview';
 
 const Home = () => {
 
@@ -15,6 +16,7 @@ const Home = () => {
             <Banner></Banner>
             <Companies data={data}></Companies>
             <SuccessStories></SuccessStories>
+            <StatsOverview></StatsOverview>
         </div>
     );
 };

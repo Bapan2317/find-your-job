@@ -14,6 +14,7 @@ import Profile from "../Components/Profile";
 import Blog from "../Pages/Blog";
 import ContactUs from "../Pages/ContactUs";
 import UpdateProfile from "../Pages/updateProfile";
+import StatsOverview from "../Components/StatsOverview";
 
 
 
@@ -62,6 +63,10 @@ export const router = createBrowserRouter(
                 {
                     path: "updateProfile",
                     Component: UpdateProfile
+                },
+                {
+                    path: "statsOverview",
+                    Component: StatsOverview
                 }
                 // {
                 //     path: "singleCompany"
