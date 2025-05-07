@@ -1,10 +1,7 @@
 import React from 'react';
-
-
-import ReactDOM from 'react-dom';
-import { TbVersionsFilled } from 'react-icons/tb';
-import ReactModal from 'react-modal';
+import { Helmet } from 'react-helmet';
 import Modal from 'react-modal';
+import { Link } from 'react-router';
 
 const customStyles = {
     content: {
@@ -15,11 +12,11 @@ const customStyles = {
         transform: 'translate(-50%, -50%)',
         padding: '20px',
         borderRadius: '12px',
-        width: '90%',            // Mobile-friendly width
-        maxWidth: '500px',       // Desktop max width
+        width: '90%',
+        maxWidth: '500px',
         backgroundColor: '#fff',
-        overflow: 'auto',        // For scroll if content overflows
-        maxHeight: '90vh',       // Prevents modal from going off screen
+        overflow: 'auto',
+        maxHeight: '90vh',
     },
     overlay: {
         backgroundColor: 'rgba(0, 0, 0, 0.5)',
@@ -27,15 +24,10 @@ const customStyles = {
     },
 };
 
-// Make sure to bind modal to your appElement (https://reactcommunity.org/react-modal/accessibility/)
 Modal.setAppElement('#root');
-
-
 
 const SingleCompanyJobs = ({ singleCompanyJob }) => {
     const { title, bannerImage, location, salary, jobType, description, requirements } = singleCompanyJob;
-
-
 
     let subtitle;
     const [modalIsOpen, setIsOpen] = React.useState(false);
@@ -45,7 +37,6 @@ const SingleCompanyJobs = ({ singleCompanyJob }) => {
     }
 
     function afterOpenModal() {
-        // references are now sync'd and can be accessed.
         subtitle.style.color = '#f00';
     }
 
@@ -54,6 +45,7 @@ const SingleCompanyJobs = ({ singleCompanyJob }) => {
     }
     return (
         <div className="bg-secondary p-2 rounded-lg flex flex-col h-full">
+
             <img className="w-full h-[200px]" src={bannerImage} alt="Banner" />
 
             <div className="flex flex-col flex-grow px-5 py-3 space-y-2">
@@ -65,8 +57,8 @@ const SingleCompanyJobs = ({ singleCompanyJob }) => {
 
 
                 <div className="flex justify-between mt-auto">
-                    <button onClick={openModal} className="btn btn-primary px-2 text-xs py-0">Show More</button>
-                    <button className="btn btn-primary px-2 text-xs">Apply Now</button>
+                    <button onClick={openModal} className="btn btn-primary px-2 text-xs py-0">More details</button>
+                    <Link className="btn btn-primary px-2 text-xs">Apply Now</Link>
 
 
                     <Modal
@@ -76,7 +68,6 @@ const SingleCompanyJobs = ({ singleCompanyJob }) => {
                         style={customStyles}
                         contentLabel="Example Modal"
                     >
-                        {/* , bannerImage, , , , ,  */}
                         <div className=" p-5 text-accent-content bg-gray-200">
                             <div className="text-center mb-5">
                                 <h2 className='text-accent text-2xl font-semibold mb-2'>{title}</h2>

@@ -1,15 +1,9 @@
 import React from 'react';
 import CompaniesList from './CompaniesList';
 
-
-
-
 const Companies = ({ data }) => {
 
     const companies = data;
-    // const { id } = companies;
-    // console.log(companies.ID);
-
 
     return (
         <div className=''>
