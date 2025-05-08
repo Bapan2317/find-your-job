@@ -1,8 +1,7 @@
-import React, { use } from 'react';
-// import { Helmet } from 'react-helmet';
+import React from 'react';
 import Modal from 'react-modal';
 import { Link } from 'react-router';
-import { AuthContext } from '../provider/AuthProvider';
+
 
 const customStyles = {
     content: {
@@ -29,10 +28,7 @@ Modal.setAppElement('#root');
 
 const SingleCompanyJobs = ({ singleCompanyJob, website }) => {
     const { title, bannerImage, location, salary, jobType, description, requirements } = singleCompanyJob;
-    // const { user } = use(AuthContext)
-    // console.log(user);
-    // const { website } = user
-    // console.log(website);
+
     let subtitle;
     const [modalIsOpen, setIsOpen] = React.useState(false);
 

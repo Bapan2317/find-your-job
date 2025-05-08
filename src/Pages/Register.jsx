@@ -13,9 +13,6 @@ const Register = () => {
     const navigate = useNavigate()
     const [showPassword, setShowPassword] = useState(false)
     const [error, setError] = useState("")
-    // const [userName, setUserName] = useState("")
-
-
 
     const handleRegister = (e) => {
         e.preventDefault();
@@ -49,11 +46,11 @@ const Register = () => {
     const googleSignin = () => {
         googleSignIn()
             .then(result => {
+                toast("Register successfully done")
                 setUser(result.user)
                 navigate("/")
             })
             .catch(error => {
-                console.log(error.message);
                 toast(error.message);
             })
     }

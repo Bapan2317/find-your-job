@@ -3,11 +3,9 @@ import { useLoaderData, useParams } from 'react-router';
 import SingleCompanyJobs from './SingleCompanyJobs';
 
 
-
 const Company = () => {
     const data = useLoaderData();
     const { id } = useParams();
-
     const company = data.find(c => c.id === id);
 
     return (
@@ -19,6 +17,7 @@ const Company = () => {
                         key={singleCompanyJob.id}
                         singleCompanyJob={singleCompanyJob}
                         data={data}
+                        website={company.website}
                     >
                     </SingleCompanyJobs>)
                 }

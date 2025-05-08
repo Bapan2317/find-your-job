@@ -16,9 +16,10 @@ const Header = () => {
             .then(result => {
                 toast("Log out successful")
                 setUser(null)
+                navigate("/")
             })
             .catch(error => {
-                console.log(error);
+                toast(error.message)
             })
     }
 
@@ -60,9 +61,6 @@ const Header = () => {
                     </ul>
                 </div>
                 <div className="navbar-end ">
-                    {/* <a onClick={handleSignUp} className="btn">Button</a> */}
-
-                    {/*  */}
 
                     <div className="mr-5 flex  items-center md:gap-4">
                         {

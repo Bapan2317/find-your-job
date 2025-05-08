@@ -1,5 +1,4 @@
 import { createBrowserRouter } from "react-router";
-// import HomeLayout from "../Layout/HomeLayout";
 import Banner from "../Components/Banner";
 import Companies from "../Components/Companies";
 import Root from "../Layout/Root";
@@ -16,77 +15,72 @@ import ContactUs from "../Pages/ContactUs";
 import UpdateProfile from "../Pages/updateProfile";
 import StatsOverview from "../Components/StatsOverview";
 
-
-
-
 export const router = createBrowserRouter(
     [
         {
             path: "/",
-            element: <Root></Root>,
-            errorElement: <ErrorPage></ErrorPage>,
+            element: <Root />,
+            errorElement: <ErrorPage />,
             children: [
                 {
                     index: true,
-                    path: "/",
-                    loader: () => fetch("/companies.json"),
-                    Component: Home
+                    element: <Home />,
+                    loader: () => fetch("/companies.json")
                 },
                 {
                     path: "/banner",
-                    Component: Banner
+                    element: <Banner />
                 },
                 {
                     path: "/companies",
-                    Component: Companies,
+                    element: <Companies />
                 },
                 {
                     path: "/company/:id",
                     loader: () => fetch("/companies.json"),
-                    element: <PrivateRoute>
-                        <Company></Company>
-                    </PrivateRoute>
+                    element: (
+                        <PrivateRoute>
+                            <Company />
+                        </PrivateRoute>
+                    )
                 },
                 {
                     path: "/profile",
-                    Component: Profile
+                    element: <PrivateRoute><Profile /></PrivateRoute>
                 },
                 {
                     path: "/blog",
-                    Component: Blog,
+                    element: <Blog />,
                     loader: () => fetch("/blog.json"),
                 },
                 {
                     path: "/contactUs",
-                    Component: ContactUs
+                    element: <ContactUs />
                 },
                 {
                     path: "/updateProfile",
-                    Component: UpdateProfile
+                    element: <PrivateRoute><UpdateProfile /></PrivateRoute>
                 },
                 {
                     path: "/statsOverview",
-                    Component: StatsOverview
+                    element: <StatsOverview />
                 }
-                // {
-                //     path: "singleCompany"
-                // }
             ]
         },
         {
             path: "/auth",
-            Component: AuthLayout,
-            errorElement: <ErrorPage></ErrorPage>,
+            element: <AuthLayout />,
+            errorElement: <ErrorPage />,
             children: [
                 {
                     path: "/auth/login",
-                    Component: Login
+                    element: <Login />
                 },
                 {
                     path: "/auth/register",
-                    Component: Register
+                    element: <Register />
                 }
             ]
         }
     ]
-)
+);

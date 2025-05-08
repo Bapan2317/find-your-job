@@ -6,22 +6,23 @@ import Loading from '../Pages/Loading';
 
 const Root = () => {
 
-    const [loading, setLoading] = useState(true); // শুরুতে loading true
+    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        // এখানে 2 সেকেন্ড পর loader বন্ধ হবে (ডেমো হিসেবে)
+
         const timer = setTimeout(() => {
             setLoading(false);
-        }, 1000);
+        }, 600);
 
-        return () => clearTimeout(timer); // clean up
+        return () => clearTimeout(timer);
     }, []);
 
     if (loading) {
-        return <Loading />; // Loader component দেখাও
+        return <Loading />;
     }
     return (
         <div>
+
             <Header></Header>
             <Outlet></Outlet>
             <Footer></Footer>

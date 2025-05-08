@@ -60,7 +60,7 @@ const AuthProvider = ({ children }) => {
         forgetPassword,
         updateUser
     }
-    console.log(user);
+
     return <AuthContext value={authData}>{children}</AuthContext>
 };
 

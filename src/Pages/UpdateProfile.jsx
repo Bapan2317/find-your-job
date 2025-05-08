@@ -1,4 +1,4 @@
-import React, { use, useEffect } from "react";
+import React, { use } from "react";
 import { AuthContext } from "../provider/AuthProvider";
 import { toast, ToastContainer } from "react-toastify";
 import { auth } from "../firebase/firebase.config";
@@ -7,15 +7,25 @@ import { Helmet } from "react-helmet-async";
 const UpdateProfile = () => {
     const data = use(AuthContext)
     const { user, setUser, updateUser } = data;
-    // const { displayName, photoURL } = user;
-    // console.log(user?.email);
+
 
     const handleProfileUpdate = (e) => {
         e.preventDefault()
         const name = e.target.name.value;
         const photo = e.target.photo.value;
+
+        if (!name || !photo) {
+            toast("error")
+            return
+        }
+        else if (name == user.displayName || photo == user.photoURL) {
+            toast("error sm")
+            return
+        }
+
         updateUser({ displayName: name, photoURL: photo })
             .then(() => {
+
 
                 const updatedUser = {
                     ...auth.currentUser,
@@ -30,9 +40,9 @@ const UpdateProfile = () => {
             });
     }
     return (
-        <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-purple-100 to-blue-200 px-4">
+        <div className="min-h-screen flex flex-col gap-5 md:flex-row items-center justify-center bg-gradient-to-r from-purple-100 to-blue-200 px-4 py-8">
             <Helmet><title>Update Profile | Your Jobs</title></Helmet>
-            <div className="bg-white p-8 rounded shadow-md w-full max-w-md h-[50vh] mr-5 space-y-5">
+            <div className="bg-white p-8 rounded shadow-md w-full max-w-md h-[50vh] space-y-5">
                 <img className="mx-auto rounded-full w-[100px] h-[100px] mb-8" src={user?.photoURL} alt="" />
                 <h3 className=""><span className="text-accent font-semibold">Name : </span>{user?.displayName}</h3>
                 <p className=""><span className="text-accent font-semibold">Email : </span>{user?.email}</p>
@@ -63,7 +73,7 @@ const UpdateProfile = () => {
                     />
                 </div>
 
-                <button type="submit" className="w-full bg-primary text-white py-2 rounded ">
+                <button type="submit" className="w-full bg-primary cursor-pointer text-white py-2 rounded ">
                     Update
                 </button>
             </form>

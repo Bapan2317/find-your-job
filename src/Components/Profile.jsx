@@ -4,8 +4,9 @@ import userLogo from '../assets/userLogo.jpg';
 import { Helmet } from 'react-helmet-async';
 
 const Profile = () => {
+
     const { user } = use(AuthContext)
-    // const { displayName } = user
+
     return (
         <div className='min-h-screen bg-base-300 pt-8 flex flex-col items-center'>
             <Helmet><title>Profile | Your Jobs</title></Helmet>

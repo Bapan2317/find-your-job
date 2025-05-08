@@ -4,15 +4,7 @@ import CompaniesList from './CompaniesList';
 const Companies = ({ data }) => {
 
     const companies = data;
-    // const { website } = companies
-    // console.log(companies.website);
-    const { website } = companies
 
-    // const website = companies.filter(singleWebsite => singleWebsite.website)
-    // console.log(website);
-
-
-    // website={company.website}
     return (
         <div className=''>
             <div className='bg-[#94c43d70]'>
@@ -24,7 +16,11 @@ const Companies = ({ data }) => {
                 </div>
             </div>
             {
-                companies.map((company, i) => <CompaniesList key={i} website={website} company={company}></CompaniesList>)
+                companies.map((company, i) => <CompaniesList
+                    key={i}
+                    company={company}
+                >
+                </CompaniesList>)
             }
         </div>
     );

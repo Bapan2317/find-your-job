@@ -1,7 +1,6 @@
 import React from 'react';
-import { SlArrowRight } from 'react-icons/sl';
 import { Link } from 'react-router';
-import { AuthContext } from '../provider/AuthProvider';
+
 
 const CompaniesList = ({ company }) => {
 

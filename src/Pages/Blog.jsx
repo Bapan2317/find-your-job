@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet-async";
 import { useLoaderData } from "react-router";
 
 const Blog = () => {
+
     const blogs = useLoaderData()
 
     return (

@@ -1,5 +1,5 @@
 import React, { use, useRef, useState } from 'react';
-import { Link, Links, useNavigate } from 'react-router';
+import { Link, useNavigate } from 'react-router';
 import { AuthContext } from '../provider/AuthProvider';
 import { FaEye, FaEyeSlash, FaGithub, FaGoogle } from 'react-icons/fa';
 import { FcGoogle } from 'react-icons/fc';
@@ -22,7 +22,6 @@ const Login = () => {
         const password = e.target.password.value;
         login(email, password)
             .then(result => {
-                console.log(result);
                 const user = result.user;
                 setUser(user)
                 navigate("/")
@@ -34,11 +33,11 @@ const Login = () => {
     const googleSignin = () => {
         googleSignIn()
             .then(result => {
+                toast("Login successful")
                 setUser(result.user)
                 navigate("/")
             })
             .catch(error => {
-                console.log(error.message);
                 toast(error.message);
             })
     }
@@ -50,7 +49,7 @@ const Login = () => {
                 toast("Reset link sent. Check your email.");
             })
             .catch(error => {
-                console.log(error.message);
+                toast(error.message);
             })
     }
 
