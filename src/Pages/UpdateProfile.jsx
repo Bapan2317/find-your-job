@@ -2,6 +2,7 @@ import React, { use, useEffect } from "react";
 import { AuthContext } from "../provider/AuthProvider";
 import { toast, ToastContainer } from "react-toastify";
 import { auth } from "../firebase/firebase.config";
+import { Helmet } from "react-helmet-async";
 
 const UpdateProfile = () => {
     const data = use(AuthContext)
@@ -30,6 +31,7 @@ const UpdateProfile = () => {
     }
     return (
         <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-purple-100 to-blue-200 px-4">
+            <Helmet><title>Update Profile | Your Jobs</title></Helmet>
             <div className="bg-white p-8 rounded shadow-md w-full max-w-md h-[50vh] mr-5 space-y-5">
                 <img className="mx-auto rounded-full w-[100px] h-[100px] mb-8" src={user?.photoURL} alt="" />
                 <h3 className=""><span className="text-accent font-semibold">Name : </span>{user?.displayName}</h3>

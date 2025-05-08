@@ -33,39 +33,39 @@ export const router = createBrowserRouter(
                     Component: Home
                 },
                 {
-                    path: "banner",
+                    path: "/banner",
                     Component: Banner
                 },
                 {
-                    path: "companies",
+                    path: "/companies",
                     Component: Companies,
                 },
                 {
-                    path: "company/:id",
+                    path: "/company/:id",
                     loader: () => fetch("/companies.json"),
                     element: <PrivateRoute>
                         <Company></Company>
                     </PrivateRoute>
                 },
                 {
-                    path: "profile",
+                    path: "/profile",
                     Component: Profile
                 },
                 {
-                    path: "blog",
+                    path: "/blog",
                     Component: Blog,
                     loader: () => fetch("/blog.json"),
                 },
                 {
-                    path: "contactUs",
+                    path: "/contactUs",
                     Component: ContactUs
                 },
                 {
-                    path: "updateProfile",
+                    path: "/updateProfile",
                     Component: UpdateProfile
                 },
                 {
-                    path: "statsOverview",
+                    path: "/statsOverview",
                     Component: StatsOverview
                 }
                 // {

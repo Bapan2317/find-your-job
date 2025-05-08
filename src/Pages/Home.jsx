@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import Banner from '../Components/Banner';
 import Companies from '../Components/Companies';
-import { useLoaderData } from 'react-router';
-import { Helmet } from 'react-helmet';
+import { Outlet, useLoaderData, } from 'react-router';
 import SuccessStories from '../Components/SuccessStories';
 import StatsOverview from '../Components/StatsOverview';
+import Loading from './Loading';
+import { Helmet } from 'react-helmet-async';
 
 const Home = () => {
 
@@ -14,7 +15,9 @@ const Home = () => {
         <div>
             <Helmet><title>Home | Your Jobs</title></Helmet>
             <Banner></Banner>
-            <Companies data={data}></Companies>
+            <Suspense fallback={<Loading />}>
+                <Companies data={data}></Companies>
+            </Suspense>
             <SuccessStories></SuccessStories>
             <StatsOverview></StatsOverview>
         </div>

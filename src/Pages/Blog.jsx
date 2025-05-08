@@ -1,5 +1,5 @@
 import React from "react";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import { useLoaderData } from "react-router";
 
 const Blog = () => {
@@ -7,7 +7,7 @@ const Blog = () => {
 
     return (
         <div className="max-w-5xl mx-auto px-4 py-8 min-h-screen ">
-            <Helmet><title> Blog | Your Jobs</title></Helmet>
+            <Helmet><title>Blog | Your Jobs</title></Helmet>
             <h1 className="text-3xl text-accent font-bold mb-12 text-center ">Our Latest Blog Posts</h1>
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                 {blogs.map((post) => (

@@ -1,7 +1,8 @@
-import React from 'react';
-import { Helmet } from 'react-helmet';
+import React, { use } from 'react';
+// import { Helmet } from 'react-helmet';
 import Modal from 'react-modal';
 import { Link } from 'react-router';
+import { AuthContext } from '../provider/AuthProvider';
 
 const customStyles = {
     content: {
@@ -26,9 +27,12 @@ const customStyles = {
 
 Modal.setAppElement('#root');
 
-const SingleCompanyJobs = ({ singleCompanyJob }) => {
+const SingleCompanyJobs = ({ singleCompanyJob, website }) => {
     const { title, bannerImage, location, salary, jobType, description, requirements } = singleCompanyJob;
-
+    // const { user } = use(AuthContext)
+    // console.log(user);
+    // const { website } = user
+    // console.log(website);
     let subtitle;
     const [modalIsOpen, setIsOpen] = React.useState(false);
 
@@ -58,7 +62,7 @@ const SingleCompanyJobs = ({ singleCompanyJob }) => {
 
                 <div className="flex justify-between mt-auto">
                     <button onClick={openModal} className="btn btn-primary px-2 text-xs py-0">More details</button>
-                    <Link className="btn btn-primary px-2 text-xs">Apply Now</Link>
+                    <Link to={website} className="btn btn-primary px-2 text-xs">Apply Now</Link>
 
 
                     <Modal

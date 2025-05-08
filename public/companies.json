@@ -184,7 +184,7 @@
           {
             "id": "job002-01",
             "title": "Backend Engineer",
-            "bannerImage": "https://example.com/jobs/job-banner2.jpg",
+            "bannerImage": "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010130.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
             "location": "New York, NY",
             "salary": "$62,000 - $82,000",
             "jobType": "Full-time",
@@ -200,7 +200,7 @@
           {
             "id": "job002-02",
             "title": "Financial Analyst",
-            "bannerImage": "https://example.com/jobs/job-banner-finance.jpg",
+            "bannerImage": "https://img.freepik.com/free-photo/business-person-looking-finance-graphs_23-2150461351.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
             "location": "Remote",
             "salary": "$70,000 - $90,000",
             "jobType": "Full-time",
@@ -216,7 +216,7 @@
           {
             "id": "job002-03",
             "title": "Compliance Officer",
-            "bannerImage": "https://example.com/jobs/job-banner-compliance.jpg",
+            "bannerImage": "https://img.freepik.com/free-photo/front-view-business-man-smiling_23-2148763829.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
             "location": "New York, NY",
             "salary": "$80,000 - $100,000",
             "jobType": "Full-time",
@@ -232,7 +232,7 @@
           {
             "id": "job002-04",
             "title": "Cloud Engineer",
-            "bannerImage": "https://example.com/jobs/job-banner-cloud.jpg",
+            "bannerImage": "https://img.freepik.com/free-photo/technology-integrated-everyday-life_23-2151887047.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
             "location": "Remote",
             "salary": "$85,000 - $110,000",
             "jobType": "Full-time",
@@ -248,7 +248,7 @@
           {
             "id": "job002-05",
             "title": "Business Analyst",
-            "bannerImage": "https://example.com/jobs/job-banner-business.jpg",
+            "bannerImage": "https://img.freepik.com/free-photo/business-person-looking-finance-graphs_23-2150461332.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
             "location": "New York, NY",
             "salary": "$60,000 - $85,000",
             "jobType": "Full-time",
@@ -264,7 +264,7 @@
           {
             "id": "job002-06",
             "title": "Mobile Developer",
-            "bannerImage": "https://example.com/jobs/job-banner-mobile.jpg",
+            "bannerImage": "https://img.freepik.com/free-vector/source-code-concept-illustration_114360-5487.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
             "location": "Remote",
             "salary": "$68,000 - $88,000",
             "jobType": "Full-time",
@@ -280,7 +280,7 @@
           {
             "id": "job002-07",
             "title": "Customer Support Specialist",
-            "bannerImage": "https://example.com/jobs/job-banner-support.jpg",
+            "bannerImage": "https://img.freepik.com/free-vector/customer-support-flat-design-illustration_23-2148889374.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
             "location": "Remote",
             "salary": "$40,000 - $55,000",
             "jobType": "Full-time",
@@ -296,7 +296,7 @@
           {
             "id": "job002-08",
             "title": "Data Engineer",
-            "bannerImage": "https://example.com/jobs/job-banner-data.jpg",
+            "bannerImage": "https://img.freepik.com/free-photo/html-css-collage-concept-with-person_23-2150062008.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
             "location": "New York, NY",
             "salary": "$90,000 - $115,000",
             "jobType": "Full-time",
@@ -312,7 +312,7 @@
           {
             "id": "job002-09",
             "title": "Machine Learning Engineer",
-            "bannerImage": "https://example.com/jobs/job-banner-ml.jpg",
+            "bannerImage": "https://img.freepik.com/free-photo/person-working-html-computer_23-2150038859.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
             "location": "Remote",
             "salary": "$95,000 - $130,000",
             "jobType": "Full-time",
@@ -328,7 +328,7 @@
           {
             "id": "job002-10",
             "title": "Marketing Manager",
-            "bannerImage": "https://example.com/jobs/job-banner-marketing.jpg",
+            "bannerImage": "https://img.freepik.com/free-photo/man-suit-standing-office-with-clipboard-pointing-poster-with-words_1098-17121.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
             "location": "New York, NY",
             "salary": "$75,000 - $95,000",
             "jobType": "Full-time",
@@ -356,7 +356,7 @@
           {
             "id": "job003",
             "title": "Data Analyst",
-            "bannerImage": "https://example.com/jobs/job-banner3.jpg",
+            "bannerImage": "https://img.freepik.com/free-photo/paper-analysis_1098-15678.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
             "location": "Austin, TX",
             "salary": "$64,000 - $84,000",
             "jobType": "Full-time",
@@ -372,7 +372,7 @@
           {
             "id": "job004",
             "title": "Backend Developer",
-            "bannerImage": "https://example.com/jobs/backend-banner.jpg",
+            "bannerImage": "https://img.freepik.com/free-photo/person-front-computer-working-html_23-2150040428.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
             "location": "Austin, TX",
             "salary": "$75,000 - $95,000",
             "jobType": "Full-time",
@@ -388,7 +388,7 @@
           {
             "id": "job005",
             "title": "Frontend Developer",
-            "bannerImage": "https://example.com/jobs/frontend-banner.jpg",
+            "bannerImage": "https://img.freepik.com/free-vector/programming-concept-illustration_114360-1351.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
             "location": "Remote",
             "salary": "$70,000 - $90,000",
             "jobType": "Remote",
@@ -404,7 +404,7 @@
           {
             "id": "job006",
             "title": "Project Manager",
-            "bannerImage": "https://example.com/jobs/pm-banner.jpg",
+            "bannerImage": "https://img.freepik.com/free-vector/project-management-concept-flat-style_23-2147796101.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
             "location": "Austin, TX",
             "salary": "$85,000 - $110,000",
             "jobType": "Full-time",
@@ -420,7 +420,7 @@
           {
             "id": "job007",
             "title": "UI/UX Designer",
-            "bannerImage": "https://example.com/jobs/uiux-banner.jpg",
+            "bannerImage": "https://img.freepik.com/free-vector/gradient-ui-ux-background_23-2149052117.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
             "location": "Austin, TX",
             "salary": "$68,000 - $88,000",
             "jobType": "Full-time",
@@ -436,7 +436,7 @@
           {
             "id": "job008",
             "title": "QA Engineer",
-            "bannerImage": "https://example.com/jobs/qa-banner.jpg",
+            "bannerImage": "https://img.freepik.com/free-vector/qa-engineers-concept-illustration_114360-3250.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
             "location": "Austin, TX",
             "salary": "$60,000 - $80,000",
             "jobType": "Full-time",
@@ -452,7 +452,7 @@
           {
             "id": "job009",
             "title": "DevOps Engineer",
-            "bannerImage": "https://example.com/jobs/devops-banner.jpg",
+            "bannerImage": "https://img.freepik.com/free-vector/gradient-devops-illustration_23-2149370941.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
             "location": "Austin, TX",
             "salary": "$90,000 - $120,000",
             "jobType": "Full-time",
@@ -468,7 +468,7 @@
           {
             "id": "job010",
             "title": "Technical Writer",
-            "bannerImage": "https://example.com/jobs/writer-banner.jpg",
+            "bannerImage": "https://img.freepik.com/free-vector/man-sysadmine-computer-programmer-working-computer_575670-70.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
             "location": "Austin, TX",
             "salary": "$55,000 - $75,000",
             "jobType": "Part-time",
@@ -484,7 +484,7 @@
           {
             "id": "job011",
             "title": "Mobile App Developer",
-            "bannerImage": "https://example.com/jobs/mobile-banner.jpg",
+            "bannerImage": "https://img.freepik.com/free-vector/app-development-banner_33099-1720.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
             "location": "Austin, TX",
             "salary": "$78,000 - $98,000",
             "jobType": "Full-time",
@@ -500,7 +500,7 @@
           {
             "id": "job012",
             "title": "Support Engineer",
-            "bannerImage": "https://example.com/jobs/support-banner.jpg",
+            "bannerImage": "https://img.freepik.com/free-vector/flat-design-illustration-customer-support_23-2148887720.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
             "location": "Austin, TX",
             "salary": "$50,000 - $70,000",
             "jobType": "Full-time",
@@ -528,7 +528,7 @@
           {
             "id": "job004",
             "title": "DevOps Engineer",
-            "bannerImage": "https://example.com/jobs/job-banner4.jpg",
+            "bannerImage": "https://img.freepik.com/free-vector/gradient-devops-illustration_23-2149370941.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
             "location": "Remote",
             "salary": "$66,000 - $86,000",
             "jobType": "Full-time",
@@ -544,7 +544,7 @@
           {
             "id": "job013",
             "title": "Instructional Designer",
-            "bannerImage": "https://example.com/jobs/instructional.jpg",
+            "bannerImage": "https://img.freepik.com/free-vector/man-with-easel-before-screen-with-video-learning-how-draw-portrait-illustration_335657-267.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
             "location": "Remote",
             "salary": "$55,000 - $75,000",
             "jobType": "Remote",
@@ -560,7 +560,7 @@
           {
             "id": "job014",
             "title": "Online Course Developer",
-            "bannerImage": "https://example.com/jobs/course-dev.jpg",
+            "bannerImage": "https://img.freepik.com/free-vector/hand-drawn-online-tutor-landing-page_52683-146175.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
             "location": "Remote",
             "salary": "$60,000 - $80,000",
             "jobType": "Full-time",
@@ -576,7 +576,7 @@
           {
             "id": "job015",
             "title": "React Developer (EdTech)",
-            "bannerImage": "https://example.com/jobs/react-edtech.jpg",
+            "bannerImage": "https://img.freepik.com/free-photo/person-playing-3d-video-games-device_23-2151005751.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
             "location": "Remote",
             "salary": "$72,000 - $92,000",
             "jobType": "Full-time",
@@ -592,7 +592,7 @@
           {
             "id": "job016",
             "title": "Educational Content Writer",
-            "bannerImage": "https://example.com/jobs/edu-writer.jpg",
+            "bannerImage": "https://img.freepik.com/free-photo/crop-man-studying-near-laptop_23-2147779362.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
             "location": "Remote",
             "salary": "$45,000 - $65,000",
             "jobType": "Part-time",
@@ -608,7 +608,7 @@
           {
             "id": "job017",
             "title": "Marketing Manager (EdTech)",
-            "bannerImage": "https://example.com/jobs/ed-marketing.jpg",
+            "bannerImage": "https://img.freepik.com/free-photo/front-view-pretty-woman-showing-diagrams-working-office_140725-109240.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
             "location": "Remote",
             "salary": "$78,000 - $98,000",
             "jobType": "Full-time",
@@ -624,7 +624,7 @@
           {
             "id": "job018",
             "title": "Customer Success Manager",
-            "bannerImage": "https://example.com/jobs/csm-ed.jpg",
+            "bannerImage": "https://img.freepik.com/free-photo/modern-equipped-computer-lab_23-2149241262.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
             "location": "Remote",
             "salary": "$65,000 - $85,000",
             "jobType": "Full-time",
@@ -640,7 +640,7 @@
           {
             "id": "job019",
             "title": "Data Analyst (Learning Analytics)",
-            "bannerImage": "https://example.com/jobs/data-ed.jpg",
+            "bannerImage": "https://img.freepik.com/free-photo/young-businessman-working-from-his-office-concept-success_181624-26407.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
             "location": "Remote",
             "salary": "$70,000 - $90,000",
             "jobType": "Full-time",
@@ -656,7 +656,7 @@
           {
             "id": "job020",
             "title": "Python Developer (Automation)",
-            "bannerImage": "https://example.com/jobs/python-ed.jpg",
+            "bannerImage": "https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
             "location": "Remote",
             "salary": "$75,000 - $95,000",
             "jobType": "Full-time",
@@ -672,7 +672,7 @@
           {
             "id": "job021",
             "title": "Support Specialist",
-            "bannerImage": "https://example.com/jobs/support-ed.jpg",
+            "bannerImage": "https://img.freepik.com/free-vector/flat-customer-support-illustration_23-2148899114.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
             "location": "Remote",
             "salary": "$48,000 - $65,000",
             "jobType": "Full-time",
@@ -700,7 +700,7 @@
           {
             "id": "job005",
             "title": "UX Designer",
-            "bannerImage": "https://example.com/jobs/job-banner5.jpg",
+            "bannerImage": "https://img.freepik.com/free-photo/ui-ux-representations-with-laptop_23-2150201871.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
             "location": "Chicago, IL",
             "salary": "$68,000 - $88,000",
             "jobType": "Full-time",
@@ -716,7 +716,7 @@
           {
             "id": "job022",
             "title": "Retail Data Analyst",
-            "bannerImage": "https://example.com/jobs/retail-data.jpg",
+            "bannerImage": "https://img.freepik.com/free-photo/young-caucasian-woman-standing-boutique-shop-showing-tablet-with-business-graph_1098-20657.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
             "location": "Chicago, IL",
             "salary": "$65,000 - $85,000",
             "jobType": "Full-time",
@@ -732,7 +732,7 @@
           {
             "id": "job023",
             "title": "E-commerce Developer",
-            "bannerImage": "https://example.com/jobs/ecommerce-dev.jpg",
+            "bannerImage": "https://img.freepik.com/free-photo/showing-cart-trolley-shopping-online-sign-graphic_53876-133967.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
             "location": "Chicago, IL",
             "salary": "$75,000 - $95,000",
             "jobType": "Full-time",
@@ -748,7 +748,7 @@
           {
             "id": "job024",
             "title": "Store Operations Manager",
-            "bannerImage": "https://example.com/jobs/store-mgr.jpg",
+            "bannerImage": "https://img.freepik.com/free-photo/cheerful-successful-middle-aged-manager-businessman-holding-tablet-computer-large-warehouse-organizing-distribution_342744-1494.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
             "location": "Chicago, IL",
             "salary": "$80,000 - $100,000",
             "jobType": "Full-time",
@@ -764,7 +764,7 @@
           {
             "id": "job025",
             "title": "Marketing Coordinator",
-            "bannerImage": "https://example.com/jobs/retail-marketing.jpg",
+            "bannerImage": "https://img.freepik.com/free-photo/business-person-looking-finance-graphs_23-2150461332.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
             "location": "Chicago, IL",
             "salary": "$55,000 - $75,000",
             "jobType": "Full-time",
@@ -780,7 +780,7 @@
           {
             "id": "job026",
             "title": "Inventory Specialist",
-            "bannerImage": "https://example.com/jobs/inventory.jpg",
+            "bannerImage": "https://img.freepik.com/free-photo/medium-shot-smiley-man-warehouse_23-2149214306.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
             "location": "Chicago, IL",
             "salary": "$50,000 - $70,000",
             "jobType": "Full-time",
@@ -796,7 +796,7 @@
           {
             "id": "job027",
             "title": "Customer Service Lead",
-            "bannerImage": "https://example.com/jobs/retail-cs.jpg",
+            "bannerImage": "https://img.freepik.com/free-photo/woman-working-call-center-talking-with-clients-using-headphones-microphone_23-2149256152.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
             "location": "Chicago, IL",
             "salary": "$52,000 - $72,000",
             "jobType": "Full-time",
@@ -812,7 +812,7 @@
           {
             "id": "job028",
             "title": "Mobile App Designer",
-            "bannerImage": "https://example.com/jobs/mobile-retail.jpg",
+            "bannerImage": "https://img.freepik.com/free-vector/mobile-ui-ux-concept-illustration_114360-11697.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
             "location": "Chicago, IL",
             "salary": "$70,000 - $90,000",
             "jobType": "Full-time",
@@ -828,7 +828,7 @@
           {
             "id": "job029",
             "title": "Warehouse Supervisor",
-            "bannerImage": "https://example.com/jobs/warehouse.jpg",
+            "bannerImage": "https://img.freepik.com/free-photo/medium-shot-man-holding-clipboard_23-2149214304.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
             "location": "Chicago, IL",
             "salary": "$60,000 - $80,000",
             "jobType": "Full-time",
@@ -844,7 +844,7 @@
           {
             "id": "job030",
             "title": "IT Support Technician",
-            "bannerImage": "https://example.com/jobs/it-retail.jpg",
+            "bannerImage": "https://img.freepik.com/free-photo/confident-call-center-operator-talking-with-client_74855-4059.jpg?uid=R192854826&ga=GA1.1.959357073.1738596013&semt=ais_hybrid&w=740",
             "location": "Chicago, IL",
             "salary": "$58,000 - $76,000",
             "jobType": "Full-time",

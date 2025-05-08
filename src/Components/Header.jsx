@@ -1,9 +1,9 @@
-
+import './navbar.css';
 import React, { use } from 'react';
 import { Link, NavLink, useNavigate } from 'react-router';
 import logo from '../assets/logo.png';
 import { AuthContext } from '../provider/AuthProvider';
-import { FaCircleUser } from 'react-icons/fa6';
+import userLogo from '../assets/userLogo.jpg';
 import { toast } from 'react-toastify';
 
 
@@ -27,7 +27,7 @@ const Header = () => {
     }
 
     const links = <>
-        <li><NavLink to={"/"}>Home</NavLink></li>
+        <li><NavLink to={"/"} >Home</NavLink></li>
         {
             user && <li><NavLink to={"/updateProfile"}>Profile</NavLink></li>
         }
@@ -37,8 +37,8 @@ const Header = () => {
     return (
 
         <div>
-            <div className="navbar bg-base-100 md:px-8">
-                <div className="navbar-start">
+            <div className="navbar bg-[#94c43d20] md:px-8">
+                <div className="navbar-start flex-wrap">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
@@ -49,7 +49,7 @@ const Header = () => {
                             {links}
                         </ul>
                     </div>
-                    <Link className='flex gap-2 items-center'>
+                    <Link className='hidden md:flex gap-2 items-center'>
                         <img className='w-14' src={logo} alt="" />
                         <h4 className='font-bold text-primary uppercase md:text-xl hidden md:flex'>Your Jobs</h4>
                     </Link>
@@ -59,27 +59,25 @@ const Header = () => {
                         {links}
                     </ul>
                 </div>
-                <div className="navbar-end">
+                <div className="navbar-end ">
                     {/* <a onClick={handleSignUp} className="btn">Button</a> */}
 
                     {/*  */}
 
-                    <div className="mr-5 flex  items-center gap-4">
+                    <div className="mr-5 flex  items-center md:gap-4">
                         {
                             user && <>
-                                <p>{user && user.displayName}</p>
+                                <p className='text-xs md:text-sm truncate'>{user && user.displayName}</p>
                                 {
-                                    // user.photoURL ? <img className='w-12 border-3 border-primary rounded-full'
-                                    //     src={user.photoURL} alt="" /> : <img src={<FaCircleUser />} />
-                                    <img onClick={handleProfile} className='w-12 border-3 border-primary rounded-full'
-                                        src={user.photoURL ? user.photoURL : <FaCircleUser />} />
+                                    <img onClick={handleProfile} className='w-8 md:w-10 h-8 md:h-10 rounded-full cursor-pointer'
+                                        src={user.photoURL ? user.photoURL : userLogo} />
                                 }
                             </>
                         }
                     </div>
                     {/* <img className='w-12 border-3 border-primary rounded-full' src={user && user.photoURL} alt="" /> */}
                     {
-                        user ? <button onClick={handleLogout} className='btn btn-primary'>Logout</button> :
+                        user ? <button onClick={handleLogout} className='bg-primary text-base-100 px-2 text-xs py-1 rounded md:btn md:text-base-100 btn-primary'>Logout</button> :
                             <>
                                 <NavLink className="bg-primary text-base-100 mr-4 px-3 py-1.5 rounded text-xs font-semibold md:btn md:bg-primary md:text-base-100" to={"/auth/login"}>Login</NavLink>
                                 <NavLink className="bg-primary text-base-100 mr-4 px-3 py-1.5 rounded text-xs font-semibold md:btn md:bg-primary md:text-base-100" to={"/auth/register"}>Register</NavLink>
