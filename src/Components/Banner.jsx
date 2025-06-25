@@ -6,7 +6,7 @@ const Banner = () => {
         <div className=' bg-[#94c43d]'>
             <div className="w-11/12 md:w-10/12 mx-auto md:flex justify-between items-center py-6 md:py-10">
                 <div className='space-y-3 md:space-y-5 mb-8 md:mb-0'>
-                    <h1 className="text-xl md:text-xl lg:text-3xl font-bold text-accent">Find Your Dream Job Today</h1>
+                    <h1 className="text-xl md:text-xl lg:text-3xl text-primary font-bold">Find Your Dream Job Today</h1>
                     <p className="text-sm text-base-100 w-10/12">
                         Browse jobs from top companies, filter by role or location, and apply with confidence — all in one simple, user-friendly platform.
                     </p>

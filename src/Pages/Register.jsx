@@ -9,7 +9,7 @@ import Header from '../Components/Header';
 
 
 const Register = () => {
-    const { register, setUser, updateUser, googleSignIn } = use(AuthContext)
+    const { register, setUser, updateUser, googleSignIn, setLoading } = use(AuthContext)
     const navigate = useNavigate()
     const [showPassword, setShowPassword] = useState(false)
     const [error, setError] = useState("")
@@ -21,6 +21,7 @@ const Register = () => {
         const email = e.target.email.value;
         const password = e.target.password.value;
         setError("")
+        setLoading(true);
         register(email, password, name, photo)
             .then(result => {
                 const user = result.user
@@ -49,9 +50,11 @@ const Register = () => {
                 toast("Register successfully done")
                 setUser(result.user)
                 navigate("/")
+                setLoading(false);
             })
             .catch(error => {
                 toast(error.message);
+                setLoading(false);
             })
     }
     return (

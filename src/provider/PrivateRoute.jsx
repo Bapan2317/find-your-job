@@ -1,22 +1,22 @@
-import React, { use } from 'react';
-import { AuthContext } from './AuthProvider';
-import { SiElastic } from 'react-icons/si';
+
+import React, { useContext } from 'react';
+import { AuthContext } from 'c:/projects/assignment-9/src/provider/AuthProvider';
 import { Navigate } from 'react-router';
 import Loading from '../Pages/Loading';
 
-const PrivateRoute = ({ children }) => {
 
-    const { user, loading } = use(AuthContext)
+const PrivateRoute = ({ children }) => {
+    const { user, loading } = useContext(AuthContext); // ✅ সঠিক Hook
 
     if (loading) {
-        return <Loading />
+        return <Loading />;
     }
+
     if (user) {
-
-        return children
+        return children;
     }
-    return <Navigate to="/auth/login"></Navigate>
 
+    return <Navigate to="/auth/login" />;
 };
 
 export default PrivateRoute;
